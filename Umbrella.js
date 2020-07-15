@@ -12,6 +12,6 @@ class Umbrella {
     display(){
         var pos = this.umbrella.position;
         imageMode(CENTER);
-        image(this.image,pos.x,pos.y+70,100,100);
+        image(this.image,pos.x,pos.y+70,70,70);
     }
 }
